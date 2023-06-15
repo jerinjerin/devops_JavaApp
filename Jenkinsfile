@@ -5,7 +5,7 @@ pipeline {
             steps {
                 scripts{
                     gitCheckout(
-                      branch: "main"
+                      branch: "master"
                       url: "https://github.com/jerinjerin/devops_JavaApp.git"
                     )
                 }
