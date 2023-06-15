@@ -6,8 +6,8 @@ pipeline {
             steps {
                 scripts{
                     gitCheckout(
-                      branch: "master"
-                      url: "https://github.com/jerinjerin/devops_JavaApp.git"
+                      branch:"master"
+                      url:"https://github.com/jerinjerin/devops_JavaApp.git"
                     )
                 }
             }
